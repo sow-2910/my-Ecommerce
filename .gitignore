@@ -1,0 +1,38 @@
+# Local operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# Local configuration and private keys; safe templates remain versioned
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Java build artifacts
+target/
+
+# Node / Next.js build artifacts
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports and logs
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+*.log
